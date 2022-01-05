@@ -1,6 +1,6 @@
 {
   "name": "@epcor/stylelint-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "best stylelint config",
   "main": "index.js",
   "scripts": {},
