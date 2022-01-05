@@ -24,6 +24,21 @@ module.exports = {
      * @see {@link https://prettier.io/docs/en/integrating-with-linters.html#stylelint}
      */
     'stylelint-prettier/recommended',
+
+    /**
+     * @package stylelint-config-html
+     */
+    'stylelint-config-html',
+  ],
+  overrides: [
+    {
+      files: ['**/*.js', '**/*.ts', '**/*.jsx', '**/*.tsx'],
+      customSyntax: '@stylelint/postcss-css-in-js',
+    },
+    {
+      files: ['*.md', '**/*.md'],
+      customSyntax: 'postcss-markdown',
+    },
   ],
   rules: {
     /**

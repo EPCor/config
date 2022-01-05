@@ -6,7 +6,7 @@
   "scripts": {
     "eslint": "eslint 'packages' --ext .jsx,.js",
     "eslint:fix": "npm run eslint -- --fix",
-    "stylelint": "stylelint '**/*.css'",
+    "stylelint": "stylelint '**/*.{css,html,js,md}'",
     "stylelint:fix": "npm run stylelint -- --fix",
     "prettier": "prettier --check .",
     "prettier:fix": "prettier --write ."
@@ -20,8 +20,10 @@
     "stylelint": "^14.2.0"
   },
   "devDependencies": {
+    "@stylelint/postcss-css-in-js": "^0.37.2",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "postcss-markdown": "^1.2.0"
   }
 }
