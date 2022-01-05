@@ -1,0 +1,14 @@
+{
+  "name": "@epcor/prettier-config",
+  "version": "0.0.1",
+  "description": "best prettier config",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "prettier": ">=2.0.0"
+  }
+}

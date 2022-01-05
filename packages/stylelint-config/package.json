@@ -1,0 +1,20 @@
+{
+  "name": "@epcor/stylelint-config",
+  "version": "0.0.1",
+  "description": "best stylelint config",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recommended": "^6.0.0",
+    "stylelint-prettier": "^2.0.0"
+  },
+  "peerDependencies": {
+    "prettier": ">=2.0.0",
+    "stylelint": ">=14.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@epcor/eslint-config",
+  "version": "0.0.1",
+  "description": "The best eslint config",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=8.0.0",
+    "prettier": ">=2.0.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
