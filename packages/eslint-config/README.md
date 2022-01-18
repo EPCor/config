@@ -14,6 +14,6 @@ Then, in your .eslintrc.\*:
 
 ```json
 {
-  "extends": ["@best-config/eslint-config"]
+  "extends": ["@epcor/eslint-config"]
 }
 ```
